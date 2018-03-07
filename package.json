@@ -1,0 +1,58 @@
+{
+  "name": "wxos-theme",
+  "version": "1.0.0",
+  "description": "Theme generator cli tool for Wxos",
+  "bin": {
+    "wxos-theme": "./bin/wxos-theme",
+    "wt": "./bin/wxos-theme"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "xo": {
+    "space": true,
+    "rule": {
+      "semi": 0,
+      "unicorn/no-process-exit": 0,
+      "import/no-dynamic-require": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yinshipeng/wxos-theme.git"
+  },
+  "keywords": [
+    "wxos-ui",
+    "vue",
+    "theme",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/yinshipeng/wxos-theme/issues"
+  },
+  "author": "yinshipeng <yinshipeng@126.com> (https://github.com/yinshipeng)",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-nop": "0.0.3",
+    "gulp-sass": "^3.1.0",
+    "ora": "^0.3.0",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {
+    "chalk": "^2.3.2",
+    "wxos-ui": "^1.0.0",
+    "xo": "^0.17.0"
+  }
+}
