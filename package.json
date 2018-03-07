@@ -1,6 +1,6 @@
 {
   "name": "wxos-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Theme generator cli tool for Wxos",
   "bin": {
     "wxos-theme": "./bin/wxos-theme",
@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "chalk": "^2.3.2",
-    "wxos-ui": "^1.0.0",
+    "wxos-ui": "^1.0.4",
     "xo": "^0.17.0"
   }
 }
