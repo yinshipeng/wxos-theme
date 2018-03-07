@@ -4,3 +4,4 @@ npm-debug*
 .idea
 theme
 wxos-variables.scss
+yarn-error.log

@@ -1,6 +1,6 @@
 {
   "name": "wxos-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Theme generator cli tool for Wxos",
   "bin": {
     "wxos-theme": "./bin/wxos-theme",
