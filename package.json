@@ -1,6 +1,6 @@
 {
   "name": "wxos-theme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Theme generator cli tool for Wxos",
   "bin": {
     "wxos-theme": "./bin/wxos-theme",
@@ -12,15 +12,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "xo"
-  },
-  "xo": {
-    "space": true,
-    "rule": {
-      "semi": 0,
-      "unicorn/no-process-exit": 0,
-      "import/no-dynamic-require": 0
-    }
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -41,18 +33,17 @@
   },
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.3.2",
     "commander": "^2.9.0",
+    "graceful-fs": "^4.1.11",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-nop": "0.0.3",
     "gulp-sass": "^3.1.0",
+    "minimatch": "^3.0.4",
     "ora": "^0.3.0",
-    "run-sequence": "^1.2.2"
-  },
-  "devDependencies": {
-    "chalk": "^2.3.2",
-    "wxos-ui": "^1.0.4",
-    "xo": "^0.17.0"
+    "run-sequence": "^1.2.2",
+    "wxos-ui": "^1.0.4"
   }
 }
