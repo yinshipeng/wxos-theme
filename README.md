@@ -2,7 +2,7 @@
 
 > Theme generator cli tool for Wxos.
 
-![](./media/element.gif)
+![](./media/wxos.gif)
 
 
 ## Installation
